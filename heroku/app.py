@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'The hamster is running at full speed'
+    return 'The hamster has been integrated'
 
 if __name__ == "__main__":
     app.run()
